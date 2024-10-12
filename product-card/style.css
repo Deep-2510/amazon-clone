@@ -1,0 +1,475 @@
+*{
+    margin: 0%;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body{
+    width: 100%;
+    background-color: #eaeded;
+    box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    height: 70px;
+    background-color: #131a22;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.first img{
+    width: 130px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex span,
+i {
+    color: white;
+}
+.logo{
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+.map i{
+    margin-top: 17px;
+    padding-left: 5px ;
+    font-size: 17px;
+}
+.map div{
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+.map div span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.map div span{
+    font-weight: bold;
+}
+.right{
+    justify-content: space-between;
+    flex: 0.29;
+    margin-right: 10px;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.input input{
+    outline: none;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px 2px;
+    border: none;
+}
+.input .fa-search{
+    color: rgb(51, 51, 51);
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0;
+}
+.input div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid gray;
+    background-color: rgb(236, 234, 234);
+    padding: 6px 0;
+}
+.input div span{
+    border-radius: 5px 0 0 5px;
+    color: rgb(51, 51, 51);
+    padding: 6px 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.input .fa-caret-down{
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    padding: 5px;
+}
+.lang i{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.lang{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.right img{
+    width: 65px;
+    height: 50px;
+    padding: 4px;
+    margin: 0;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.sign span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.sign span{
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+.flex .ac span{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.fa-shopping-cart{
+    font-size: 30px;
+}
+.ca{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px ;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.cart p{
+    position: absolute;
+    font-weight: bolder;
+    color: #131a22;
+    top: 7px;
+    left: 23px;
+}
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.logo:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.map:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.sign:hover{
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.lang:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.input .fa-search:hover{
+   background-color: #fdae69;
+}
+input div:hover{
+    background-color: rgb(204, 202, 202);
+    color: black;
+}
+.second{
+    width: 100%;
+    display: flex;
+    height: 42px;
+    background-color: #232f3e;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+.second ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.second span{
+    font-size: 15px;
+}
+.second-1 div i{
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.second li{
+    padding: 5px 10px ;
+    font-size: 15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second-1{
+    flex: 0.06;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.second-1 div{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.second-2{
+    flex: 0.74;
+    display: flex;
+    justify-content: flex-start;
+}
+.second-3{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.second-3 div span{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.second-1 div span{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.second-1:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.second-2 li:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.second-3:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sec-1{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+/* section 1 for microwave oven*/
+.product-card-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    min-width: 250px;
+    background-color: white;
+    margin: 5px;
+    height: 295px;
+}
+.price-of-product-1{
+    display: inline-block;
+    justify-items: center;
+    text-align: justify;
+    width: 225px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.product-img img{
+    width: 180px;
+    margin: 0 15px; 
+    margin-left: 25px;   
+    align-items: center;
+
+
+}
+.product-offer p{
+    background: orange;
+    color: #131a22;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin: 8px 0;
+    font-size: 18px;
+}
+.product-offer span{
+    color: black;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.product-price p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.product-price span{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.strike{
+    text-decoration: line-through;
+}
+
+/*section 2 for AC*/
+.product-card-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    min-width: 250px;
+    background-color: white;
+    margin: 5px;
+    height: 265px;
+}
+.price-of-product-2{
+    display: inline-block;
+    justify-items: center;
+    text-align: justify;
+    width: 225px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.product-img-2 img{
+    width: 200px;
+    height: 75px;
+    margin: 0 15px; 
+    margin-left: 10px;   
+
+}
+/*section 3 for waching machine*/
+.sec-2{
+    width: 100%;
+    height: 575px;
+}
+.product-card-3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    min-width: 250px;
+    background-color: white;
+    margin: 5px;
+    height: 550px;
+}
+.price-of-product-3{
+    display: inline-block;
+    justify-items: center;
+    text-align: justify;
+    width: 225px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.product-img-3 img{
+    width: 218px;
+    height: 350px;
+    margin: 0 10px; 
+    margin-left: 5px;   
+
+}
+
+/*section 4 for refrigerater*/
+.sec-3{
+    width: 100%;
+    height: 665px;
+}
+.product-card-4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    min-width: 250px;
+    background-color: white;
+    margin: 5px;
+    height: 645px;
+}
+.price-of-product-4{
+    display: inline-block;
+    justify-items: center;
+    text-align: justify;
+    width: 225px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.product-img-4 img{
+    width: 180px;
+    height: 450px;
+    margin: 0 px; 
+    margin-left: 25px;   
+
+}
+
+/*section 5 for different material */
+.sec-4{
+    width: 100%;
+    height: 480px;
+}
+.product-card-5{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    min-width: 250px;
+    background-color: white;
+    margin: 5px;
+    height: 465px;
+}
+.price-of-product-5{
+    display: inline-block;
+    justify-items: center;
+    text-align: justify;
+    width: 225px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.product-img-5 img{
+    width: 225px;
+    height: 275px;
+    margin: 0 15px; 
+    margin-left: 5px;   
+
+}

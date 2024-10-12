@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.form{
+    align-items: center;
+    margin-top: 10px;
+    background: linear-gradient(white,yellow);
+    align-content: center;
+    height: 100%;
+    position: flex;
+    padding-left: 40px;
+    width: 100%;
+    text-align: justify;
+    text-transform: capitalize;
+    flex-direction: column;
+}
+h2{
+    font-family: Georgia;
+    font-weight: 800;
+}
+

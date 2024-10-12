@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 1;
+}
+.form{
+    
+    margin-top: 10px;
+    background: linear-gradient(white,yellow);
+    height: 900px;
+    position: relative;
+    padding-left: 20px;
+    width: 100%;
+    align-content: center;
+    text-transform: capitalize;
+    flex-direction: column;
+    padding-top: 5px;
+    display: flex;
+    text-align: justify;
+}
