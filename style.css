@@ -554,6 +554,71 @@ input div:hover{
     left: 13%;
     right: 13%;
 }
+
+/* product card with price tag*/
+
+.product-slide-with-price{
+    background-color:white;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+    
+
+}
+.product-slide-with-price .product{
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-slide-with-price .product::-webkit-scrollbar{
+    display: scroll;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    height: 250px;
+    background:orange;
+}
+.product-card img{
+    width:  180px;
+    margin: 0 15px;
+}
+
+.product-offer p{
+    background: white;
+    color: #131a22;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin: 8px 0;
+    font-size: 18px;
+}
+.product-offer span{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.product-price{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .footer-panel1{
     background-color: #131a22;
@@ -564,6 +629,7 @@ input div:hover{
     align-items: center;
     font-size: 14px;
 }
+
 
 .footer-panel2{
     display: flex;
